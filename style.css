@@ -42,8 +42,6 @@ body {
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
-/* Upload */
-
 .upload-area {
     border: 2px dashed #6366f1;
     border-radius: 10px;
@@ -71,8 +69,6 @@ body {
     color: #6b7280;
 }
 
-/* Loader */
-
 .loading {
     text-align: center;
     padding: 40px;
@@ -95,8 +91,6 @@ body {
 @keyframes spin {
     to { transform: rotate(360deg); }
 }
-
-/* Preview */
 
 .preview {
     margin-top: 30px;
@@ -128,8 +122,6 @@ body {
     object-fit: contain;
     background: #f3f4f6;
 }
-
-/* Buttons */
 
 .actions {
     margin-top: 25px;
@@ -166,8 +158,6 @@ body {
     font-size: 0.85rem;
 }
 
-/* Adjust */
-
 .adjust {
     margin-top: 25px;
     text-align: center;
@@ -186,4 +176,5 @@ body {
     .images {
         grid-template-columns: 1fr;
     }
+
 }
