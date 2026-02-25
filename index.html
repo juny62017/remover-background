@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Remover</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <header class="top">
+        <h1>Background Remover</h1>
+        <p>Upload an image and instantly remove the background.</p>
+    </header>
+
+    <section class="card">
+
+        <!-- Upload Area -->
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-inner">
+                <p class="upload-icon">⬆</p>
+                <h2>Select Image</h2>
+                <p class="upload-sub">Click or drag & drop</p>
+                <input type="file" id="imageInput" accept="image/*">
+            </div>
+        </div>
+
+        <!-- Loader -->
+        <div id="loadingSpinner" class="loading hidden">
+            <div class="loader"></div>
+            <p>Processing image...</p>
+        </div>
+
+        <!-- Preview Section -->
+        <div id="previewSection" class="preview hidden">
+
+            <div class="images">
+                <div class="box">
+                    <h3>Original</h3>
+                    <img id="originalImage" />
+                </div>
+
+                <div class="box">
+                    <h3>Result</h3>
+                    <canvas id="outputCanvas"></canvas>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button id="downloadBtn" class="btn primary">Download PNG</button>
+                <button id="uploadNewBtn" class="btn secondary">Upload New</button>
+            </div>
+
+            <div class="adjust">
+                <label>
+                    Threshold:
+                    <span id="thresholdValue">50</span>
+                </label>
+                <input type="range" id="thresholdSlider" min="0" max="100" value="50">
+                <button id="reprocessBtn" class="btn small">Apply</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
