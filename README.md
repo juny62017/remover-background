@@ -4,6 +4,7 @@ This project is a simple background remover tool that allows users to upload an 
 
 How to Use Upload an image you want to edit. The program processes the image and removes the background automatically. Download the final image with the background removed. Make sure the image has a clear subject for better accuracy and cleaner results.
 
-NOTE - SCROLL DOWN IN THE WEBSITE FOR THE TOOL ALSO - MAKE SURE TO REFRESH ATLEAST 2-3 TIMES BEFORE UPLOADING ANOTHER PICTURE
+NOTE - MAKE SURE TO REFRESH ATLEAST 2-3 TIMES BEFORE UPLOADING ANOTHER PICTURE
 
 Why I Made This Project I created this project to learn more about image processing and how background removal works behind the scene also improving my skills in programming and working with image data.
+<img width="1911" height="851" alt="image" src="https://github.com/user-attachments/assets/30619770-a756-4454-8178-f5de6dc355b7" />
